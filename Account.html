@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account details</title>
+</head>
+<body>
+    <style>
+ body {                        
+     margin: 0;                
+     padding: 0;               
+ }                             
+ .steps {                      
+     width: 810px;             
+     margin: 20px auto 30px;   
+     display: flex;            
+ }                             
+ .step {                       
+    flex: 1;                   
+    background-color: #c0d6bc;    
+    padding: 10px 12px;        
+    font-size: 25px;           
+    text-align: center;        
+    box-sizing: border-box;    
+    white-space: nowrap;       
+ }                             
+ .active {                     
+     background-color: #6591b2;
+ }                             
+ fieldset {                    
+     width: 750px;             
+     height: 440px;            
+     margin: auto;             
+     border: 2px solid rgb(33, 29, 29);   
+ }                             
+ legend {                      
+     font-size: 25px;          
+ }                             
+ label {                       
+     font-size: 26px;          
+     font-weight: bold; 
+     text-align: left;
+          
+ }                             
+ input {                       
+     width: 660px;             
+     height: 32px;             
+     font-size: 18px;          
+     margin-top: 5px;          
+     margin-bottom: 25px;      
+     padding-left: 5px; 
+        
+ }                             
+ .buttons {                    
+     display: flex;            
+     gap: 15px;                
+     margin-top: 5px;          
+ }                             
+ .button {                     
+     width: 190px;             
+     height: 55px;              
+     font-size: 24px;          
+     border: none;             
+ }                             
+    </style>
+   <div class="steps">
+     <div class="step active"> Step 1: Account</div> 
+     <div class="step">Step 2: Personal Details</div>
+     <div class="step">Step 3: Your Review</div>     
+   </div>  
+    <form>
+
+        <fieldset><legend>Account</legend>
+            <br>
+            <label>Email Address: </label>
+            <input type="email" enter placeholder=" Enter Name"><br>
+            <label>Password:</label><br>
+            <input type="password" placeholder="enter password">
+            <label> Confirm Password:</label> 
+            <input type="password" placeholder="confirm password"> 
+            <br><br>
+                <div class="buttons">
+            <a href="index.html">
+            <img src="images/backbutton.webp" alt="back button" width="140"></a>
+        
+            <a href="personal.html">
+            <img src="images/nextbutton.webp" alt="next button" width="140"></a>
+              </div>
+         </fieldset>
+    </form>
+
+                     
+
+                     
+ 
+             
+             
+                                                    
+</body>
+</html>
